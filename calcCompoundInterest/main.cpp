@@ -6,6 +6,7 @@
  */
 
 #include <cstdlib>
+#include <stdio.h>
 
 using namespace std;
 
@@ -13,6 +14,12 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+
+    float c;
+    
+    c = 2 * 2;
+
+    printf("%5.2d\n", c);
 
     return 0;
 }
